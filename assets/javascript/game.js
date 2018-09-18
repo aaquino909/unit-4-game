@@ -69,13 +69,13 @@ if (clickedPic === "dog4"){ //if dog1 = "alt"= dog1 then add to counter
     }
     $(".totalScore").text("Your total score is: "+ total);
 if (total === randomNum){
-    alert("you're a winner");
+    alert("WOOF WOOF! You're a winner!");
     wins ++;
     console.log(wins);
     $(".wins").text("Wins: " + wins);
     startOver();
 } else if (total >= randomNum){
-    alert("you lose!");
+    alert("GRRRRR you lost!");
     losses ++;
     console.log(losses);
     $(".losses").text("Losses: " + losses);
