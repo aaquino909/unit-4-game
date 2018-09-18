@@ -42,6 +42,7 @@ $(".randomNum").text("Random Number: "+ randomNum);
 }
 
 function dog(button){
+    var counter=0;
 $(button).on("click", function() {  
     var clickedPic = $(button).attr("alt");  //stores "alt" attribute to clickedPic
 
