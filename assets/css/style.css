@@ -1,0 +1,65 @@
+
+  body {
+    background: url("../images/grayBackground.jpg");
+ }
+ 
+ .header {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80px;
+    font-weight: bold;
+    color: #e3be42;
+    text-shadow: 10px 10px whitesmoke;
+    text-align: left;
+ }
+ 
+ .rules {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color:black;
+    text-align: left;
+    background-color: #e3be42;
+    border: 5px white solid;
+    margin-right: 10px;
+ }
+ 
+ .randomNumber {
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    text-align: left;
+    background-color: #588c7e;
+    color: black;
+    border: 5px white solid;
+
+ }
+ 
+ .score {
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    text-align: left;
+    background-color: #f2ae72;
+    color: black;
+    border: 5px white solid;
+
+ }
+ 
+ .dogPics {
+    text-align: left;
+    padding-top: 40px;
+ }
+ img {
+    border: 10px solid black;
+    padding-right: 25px;
+
+}
+ 
+ 
+ .finalScore {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    font-size: 50px;
+    background-color: #e3be42;   
+    border: 5px white solid;
+
+ }

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+ <head>
+
+   <meta charset="UTF-8">
+   <title>Doggie Crystal Game</title>
+   <!-- reset stylesheet -->
+   <link rel="stylesheet" href="assets/css/reset.css"/>
+   <!-- css stylesheet -->
+   <link rel="stylesheet" href="assets/css/style.css"/>
+   <!-- Added a link to Bootstrap-->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+ </head>
+
+ <body>
+
+
+<div class="container">
+    <div class="header">
+        Doggie Crystal Collector
+     </div>
+ <div class="row">
+   <div class="rules col-sm-6">
+     <p>You will be given a random number at the start of the game.</p>
+
+     <p>There are four crystals below.  By clicking on a crystal you will add a specific amount of points to your total score.</p>
+
+     <p>You win the game by matching your total score to the random number; you lose the game if your total score goes above the random number.</p>
+
+     <p>The value of each crystal is hidden until you click on it.</p>
+
+     <p>Each time the game starts, the value of the crystals will change.</p>
+   </div>
+<div class="col-sm-4">
+
+<div class="randomNumber">
+ <p class = "randomNum">Random Number:</p>
+
+</div>
+<div class="score">
+  <p class= "wins">Wins:</p>
+ <p class= "losses">Losses:</p>
+</div>
+
+</div> <!--column-->
+</div> <!--row-->
+
+ <div class="row">
+  <div class="col-sm-10">
+<div class="dogPics">
+   <img class= "doggie1" src="assets/images/doggie1.png" alt="dog1" width="auto" height="200">
+   <img class= "doggie2" src="assets/images/doggie2.png" alt="dog2" width="auto" height="200">
+   <img class= "doggie3" src="assets/images/doggie3.png" alt="dog3" width="auto" height="200">
+   <img class= "doggie4" src="assets/images/doggie4.png" alt="dog4" width="auto" height="200">
+</div>
+</div> <!--column-->
+</div> <!--row-->
+<br>
+
+<div class="row">
+  <div class="col-sm-10">
+<div class="finalScore">
+  <p class = "totalScore" >Your total score is:</p>
+</div> <!--column-->
+</div> <!--row-->
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="./assets/javascript/game.js"></script>
+
+ </body>
+</html>
