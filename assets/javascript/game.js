@@ -20,14 +20,32 @@ var doggie2Total = 0;
 var doggie3Total = 0;
 var doggie4Total = 0;
 
+function startOver(){
+randomNum =  Math.floor(Math.random() * (120 - 19 + 1)) + 19;
+doggie1Num = Math.floor(Math.random() * (12 - 1 + 1)) + 1;
+doggie2Num = Math.floor(Math.random() * (12 - 1 + 1)) + 1;
+doggie3Num = Math.floor(Math.random() * (12 - 1 + 1)) + 1;
+doggie4Num = Math.floor(Math.random() * (12 - 1 + 1)) + 1;
+console.log("dog1 " + doggie1Num);
+console.log("dog2 " + doggie2Num);
+console.log("dog3 " + doggie3Num);
+console.log("dog4 " + doggie4Num);
+doggie1Total = 0;
+doggie2Total = 0;
+doggie3Total = 0;
+doggie4Total = 0;
+total = 0;
+$(".totalScore").text("Your total score is: ");
+
+$(".randomNum").text("Random Number: "+ randomNum);
+
+}
 
 function dog(button){
     var counter = 0;
 
-
 $(button).on("click", function() {  
     var clickedPic = $(button).attr("alt");  //stores "alt" attribute to clickedPic
-    console.log(clickedPic);
 
 if (clickedPic === "dog1"){ //if dog1 = "alt"= dog1 then add to counter
     counter += 1;
@@ -55,11 +73,13 @@ if (total === randomNum){
     wins ++;
     console.log(wins);
     $(".wins").text("Wins: " + wins);
+    startOver();
 } else if (total >= randomNum){
     alert("you lose!");
     losses ++;
     console.log(losses);
     $(".losses").text("Losses: " + losses);
+    startOver();
 }
 
 
