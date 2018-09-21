@@ -1,6 +1,7 @@
 
   body {
     background: url("../images/grass.jpg");
+    margin: auto;
  }
  
  .header {
@@ -8,45 +9,48 @@
     font-size: 80px;
     font-weight: bold;
     color: #e3be42;
-    text-shadow: 10px 10px whitesmoke;
-    text-align: left;
+    text-shadow: 5px 5px whitesmoke;
+    text-align: center;
+    margin: auto;
  }
  
  .rules {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     color:black;
-    text-align: left;
+    text-align: left ;
     background-color: #e3be42;
     border: 5px white solid;
     margin-right: 10px;
+    padding-top: 45px;
  }
  
  .randomNumber {
-    margin-left: 10px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 50px;
-    text-align: left;
-    background-color: #e3be42;
-    color: black;
+    text-align: center;
+    /* background-color: #e3be42; */
+    color: white;
+    text-shadow: 5px 5px black;
     border: 5px white solid;
+    margin-top: 55px;
 
  }
  
  .score {
-    margin-left: 10px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 50px;
-    text-align: left;
-    background-color: #e3be42;
-    color: black;
+    text-align: center;
+    color: white;
     border: 5px white solid;
+    text-shadow: 5px 5px black;
+    margin-top: 25px;
  }
 
 
  .dogPics {
-    text-align: left;
     padding-top: 40px;
+    margin: auto;
  }
  img {
     border: 10px solid black;
@@ -57,9 +61,29 @@
  
  .finalScore {
     font-family: Arial, Helvetica, sans-serif;
-    text-align: left;
+    text-align: center;
     font-size: 50px;
+    margin: auto;
     background-color: #e3be42;   
     border: 5px white solid;
 
+ }
+
+ .col-sm-8 {
+   margin: auto;
+ }
+
+ .col-sm-4 {
+   padding: 100px;
+ }
+
+ .row {
+   margin: auto;
+ }
+
+ .dogLinks {
+   margin: auto;
+   background: #e3be42;
+   margin-top: 25px;
+   border: solid 5px white;
  }
